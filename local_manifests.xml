@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="rem"
-                fetch="https://github.com" />
-        <remove-project name="LineageOS/android_hardware_lineage_compat" />
-        <project path="hardware/lineage/compat" name="citty2029/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" clone-depth="1" />
-        <project path="hardware/samsung" name="crdroidandroid/android_hardware_samsung" remote="rem" revision="14.0" clone-depth="1" />
-        <project path="device/samsung/a04e" name="citty2029/android_device_samsung_a04e" remote="rem" revision="lineage-21.0" clone-depth="1" />
-        <project path="device/samsung/a04e-common" name="citty2029/android_device_samsung_a04e-common" remote="rem" revision="lineage-21.0" clone-depth="1" />
-        <project path="vendor/samsung/a04e" name="citty2029/device_vendor_samsung_a04e" remote="rem" revision="lineage-21.0" clone-depth="1" />
-        <project path="kernel/samsung/a04e" name="citty2029/android_kernel_samsung_a04e" remote="rem" revision="lineage-21.0" clone-depth="1" />
+        <!-- Remote -->
+        <remote name="citty2029" fetch="https://github.com/Citty2029" clone-depth="1" />
+        <remote name="cr" fetch="https://github.com/crdroidandroid" clone-depth="1" />
 
+        <!-- Trees -->
+  <project path="device/samsung/a04e" name="android_device_samsung_a04e" remote="citty2029" revision="lineage-21.0" />
+  <project path="device/samsung/a04e-common" name="android_device_samsung_a04e-common" remote="citty2029" revision="lineage-21.0" />
+  <project path="kernel/samsung/a04e" name="android_kernel_samsung_a04e" remote="citty2029" revision="lineage-21.0" />
+  <project path="vendor/samsung/a04e" name="device_vendor_samsung_a04e" remote="citty2029" revision="lineage-21.0" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="cr" revision="14.0" />
 </manifest>
