@@ -5,10 +5,9 @@
         <remove-project name="LineageOS/android_hardware_lineage_compat" />
         <project path="hardware/lineage/compat" name="citty2029/android_hardware_lineage_compat" remote="rem" revision="lineage-21.0" clone-depth="1" />
         <project path="hardware/samsung" name="crdroidandroid/android_hardware_samsung" remote="rem" revision="14.0" clone-depth="1" />
-        <project path="device/samsung/a04e" name="citty2029/android_device_samsung_a04e" remote="rem" revision="lineage_21" clone-depth="1" />
-        <project path="device/samsung/a04e-common" name="citty2029/android_device_samsung_a04e-common" remote="rem" revision="lineage-22" clone-depth="1" />
-        <project path="vendor/samsung/a04e" name="citty2029/device_vendor_samsung_a04e" remote="rem" revision="main" clone-depth="1" />
-        <project path="vendor/samsung/a04e-common" name="citty2029/device_vendor_samsung_a04e-common" remote="rem" revision="main" clone-depth="1" />
-        <project path="kernel/samsung/a04e" name="citty2029/android_kernel_samsung_a04e" remote="rem" revision="master" clone-depth="1" />
+        <project path="device/samsung/a04e" name="citty2029/android_device_samsung_a04e" remote="rem" revision="lineage-21.0" clone-depth="1" />
+        <project path="device/samsung/a04e-common" name="citty2029/android_device_samsung_a04e-common" remote="rem" revision="lineage-21.0" clone-depth="1" />
+        <project path="vendor/samsung/a04e" name="citty2029/device_vendor_samsung_a04e" remote="rem" revision="lineage-21.0" clone-depth="1" />
+        <project path="kernel/samsung/a04e" name="citty2029/android_kernel_samsung_a04e" remote="rem" revision="lineage-21.0" clone-depth="1" />
 
 </manifest>
