@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="citty2029/android_device_samsung_a04e" path="device/samsung/a04e" remote="github" revision="lineage_21" />
+  <project name="citty2029/android_device_samsung_a04e-common" path="device/samsung/a04e-common" remote="github" revision="lineage-22" />
+  <project name="citty2029/android_kernel_samsung_a04e" path="kernel/samsung/a04e" remote="github" revision="master" />
+  <project name="citty2029/device_vendor_samsung_a04e" path="vendor/samsung/a04e" remote="github" revision="main" />
+  <project name="citty2029/device_vendor_samsung_a04e-common" path="vendor/samsung/a04e-common" remote="github" revision="main" />
+</manifest>
